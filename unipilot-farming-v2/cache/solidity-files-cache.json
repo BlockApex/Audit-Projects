@@ -1,0 +1,636 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/kaifahmed/Downloads/WORK/HARDHAT/unipilot-farming-v2-4f6c109693b91339537f9e7cb997bc0054320144/contracts/helper/ReentrancyGuard.sol": {
+      "lastModificationDate": 1647848217255,
+      "contentHash": "359d1c660c9ea17ae32281d23e5c433b",
+      "sourceName": "contracts/helper/ReentrancyGuard.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "optimizer": {
+            "enabled": true,
+            "runs": 10
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "ReentrancyGuard"
+      ]
+    },
+    "/Users/kaifahmed/Downloads/WORK/HARDHAT/unipilot-farming-v2-4f6c109693b91339537f9e7cb997bc0054320144/contracts/UnipilotFarm.sol": {
+      "lastModificationDate": 1647848217255,
+      "contentHash": "ce27d197727513b4e1a21cf38d6d0209",
+      "sourceName": "contracts/UnipilotFarm.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "optimizer": {
+            "enabled": true,
+            "runs": 10
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IUnipilotFarm.sol",
+        "./interfaces/IUnipilotStake.sol",
+        "./helper/ReentrancyGuard.sol",
+        "@uniswap/v3-core/contracts/libraries/FullMath.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "@openzeppelin/contracts/token/ERC20/SafeERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "UnipilotFarm"
+      ]
+    },
+    "/Users/kaifahmed/Downloads/WORK/HARDHAT/unipilot-farming-v2-4f6c109693b91339537f9e7cb997bc0054320144/contracts/interfaces/IUnipilotFarm.sol": {
+      "lastModificationDate": 1647848217255,
+      "contentHash": "ca4e1417bbf9013c548a77e198cfeee6",
+      "sourceName": "contracts/interfaces/IUnipilotFarm.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "optimizer": {
+            "enabled": true,
+            "runs": 10
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "IUnipilotFarm"
+      ]
+    },
+    "/Users/kaifahmed/Downloads/WORK/HARDHAT/unipilot-farming-v2-4f6c109693b91339537f9e7cb997bc0054320144/contracts/interfaces/IUnipilotStake.sol": {
+      "lastModificationDate": 1647848217255,
+      "contentHash": "3500d89164d840de084be6146e1f3cdb",
+      "sourceName": "contracts/interfaces/IUnipilotStake.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "optimizer": {
+            "enabled": true,
+            "runs": 10
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "IUnipilotStake"
+      ]
+    },
+    "/Users/kaifahmed/Downloads/WORK/HARDHAT/unipilot-farming-v2-4f6c109693b91339537f9e7cb997bc0054320144/node_modules/@uniswap/v3-core/contracts/libraries/FullMath.sol": {
+      "lastModificationDate": 1647854917781,
+      "contentHash": "c3f03759b6500f54f402f1963af1c256",
+      "sourceName": "@uniswap/v3-core/contracts/libraries/FullMath.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "optimizer": {
+            "enabled": true,
+            "runs": 10
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.0 <0.8.0"
+      ],
+      "artifacts": [
+        "FullMath"
+      ]
+    },
+    "/Users/kaifahmed/Downloads/WORK/HARDHAT/unipilot-farming-v2-4f6c109693b91339537f9e7cb997bc0054320144/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1647854962697,
+      "contentHash": "70ec621ea910798b6c590a0b402a5bb9",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "optimizer": {
+            "enabled": true,
+            "runs": 10
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/kaifahmed/Downloads/WORK/HARDHAT/unipilot-farming-v2-4f6c109693b91339537f9e7cb997bc0054320144/node_modules/@openzeppelin/contracts/math/SafeMath.sol": {
+      "lastModificationDate": 1647854962870,
+      "contentHash": "871a094d6b6b4c3714946e86329f2fa2",
+      "sourceName": "@openzeppelin/contracts/math/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "optimizer": {
+            "enabled": true,
+            "runs": 10
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/Users/kaifahmed/Downloads/WORK/HARDHAT/unipilot-farming-v2-4f6c109693b91339537f9e7cb997bc0054320144/node_modules/@openzeppelin/contracts/token/ERC20/SafeERC20.sol": {
+      "lastModificationDate": 1647854962706,
+      "contentHash": "f820d4ad7b31d38729f20fe1bda2d48f",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "optimizer": {
+            "enabled": true,
+            "runs": 10
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol",
+        "../../math/SafeMath.sol",
+        "../../utils/Address.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "SafeERC20"
+      ]
+    },
+    "/Users/kaifahmed/Downloads/WORK/HARDHAT/unipilot-farming-v2-4f6c109693b91339537f9e7cb997bc0054320144/node_modules/@openzeppelin/contracts/utils/Address.sol": {
+      "lastModificationDate": 1647854962836,
+      "contentHash": "fc7c67d7b17cde979a685143a26b2bc8",
+      "sourceName": "@openzeppelin/contracts/utils/Address.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "optimizer": {
+            "enabled": true,
+            "runs": 10
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "/Users/kaifahmed/Downloads/WORK/HARDHAT/unipilot-farming-v2-4f6c109693b91339537f9e7cb997bc0054320144/node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol": {
+      "lastModificationDate": 1647854962703,
+      "contentHash": "52659a61e7fb46afdc3d0f00c3a87da6",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "optimizer": {
+            "enabled": true,
+            "runs": 10
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../utils/Context.sol",
+        "./IERC20.sol",
+        "../../math/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/Users/kaifahmed/Downloads/WORK/HARDHAT/unipilot-farming-v2-4f6c109693b91339537f9e7cb997bc0054320144/node_modules/@openzeppelin/contracts/utils/Context.sol": {
+      "lastModificationDate": 1647854962841,
+      "contentHash": "2adbd82f6d055a4751566d4671512b03",
+      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "optimizer": {
+            "enabled": true,
+            "runs": 10
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/Users/kaifahmed/Downloads/WORK/HARDHAT/unipilot-farming-v2-4f6c109693b91339537f9e7cb997bc0054320144/contracts/test/TestERC20.sol": {
+      "lastModificationDate": 1647855447321,
+      "contentHash": "d321222f91fb637c691bcfb1b569bea0",
+      "sourceName": "contracts/test/TestERC20.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "optimizer": {
+            "enabled": true,
+            "runs": 10
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.6"
+      ],
+      "artifacts": [
+        "TestERC20"
+      ]
+    },
+    "/Users/kaifahmed/Downloads/WORK/HARDHAT/unipilot-farming-v2-4f6c109693b91339537f9e7cb997bc0054320144/contracts/test/ERC20.sol": {
+      "lastModificationDate": 1648631965442,
+      "contentHash": "a70832d5fa6bf0cd807299e1442d995a",
+      "sourceName": "contracts/test/ERC20.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "optimizer": {
+            "enabled": true,
+            "runs": 10
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/Context.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/math/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "ERC20T"
+      ]
+    },
+    "/Users/kaifahmed/Downloads/WORK/HARDHAT/unipilot-farming-v2-4f6c109693b91339537f9e7cb997bc0054320144/node_modules/@openzeppelin/contracts/token/ERC20/ERC20Burnable.sol": {
+      "lastModificationDate": 1647854962705,
+      "contentHash": "1f7a6465c50e33bb5edd4c01be41f50b",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20Burnable.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "optimizer": {
+            "enabled": true,
+            "runs": 10
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../utils/Context.sol",
+        "./ERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "ERC20Burnable"
+      ]
+    },
+    "/Users/kaifahmed/Downloads/WORK/HARDHAT/unipilot-farming-v2-4f6c109693b91339537f9e7cb997bc0054320144/contracts/test/PilotToken.sol": {
+      "lastModificationDate": 1647848217255,
+      "contentHash": "708b97896695f8f91ea270ebe9694f7d",
+      "sourceName": "contracts/test/PilotToken.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "optimizer": {
+            "enabled": true,
+            "runs": 10
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/ERC20Burnable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.6"
+      ],
+      "artifacts": [
+        "Pilot"
+      ]
+    },
+    "/Users/kaifahmed/Downloads/WORK/HARDHAT/unipilot-farming-v2-4f6c109693b91339537f9e7cb997bc0054320144/contracts/UnipilotStake.sol": {
+      "lastModificationDate": 1647848217255,
+      "contentHash": "2b0addb48f06d6d08597b5b65a9eeb5a",
+      "sourceName": "contracts/UnipilotStake.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "optimizer": {
+            "enabled": true,
+            "runs": 10
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [],
+      "artifacts": []
+    }
+  }
+}

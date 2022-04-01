@@ -1,0 +1,33 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_governance",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "fallback"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "receive"
+    }
+  ],
+  "bytecode": {
+    "object": "0x6080604052348015600f57600080fd5b5060405160a138038060a183398181016040526020811015602f57600080fd5b5051600080546001600160a01b039092166001600160a01b0319909216919091179055604280605f6000396000f3fe608060405236600a57005b00fea2646970667358221220aa65149004ac6a3d80e1e586d0c397553c478460d33eb9a71d21937000ec43b964736f6c63430007060033",
+    "sourceMap": "188:2154:5:-:0;;;410:74;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;410:74:5;453:10;:24;;-1:-1:-1;;;;;453:24:5;;;-1:-1:-1;;;;;;453:24:5;;;;;;;;;188:2154;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x608060405236600a57005b00fea2646970667358221220aa65149004ac6a3d80e1e586d0c397553c478460d33eb9a71d21937000ec43b964736f6c63430007060033",
+    "sourceMap": "188:2154:5:-:0;;;;;;;;",
+    "linkReferences": {}
+  }
+}

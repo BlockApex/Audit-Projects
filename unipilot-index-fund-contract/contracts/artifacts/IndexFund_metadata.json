@@ -1,0 +1,177 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_timelock",
+						"type": "address"
+					},
+					{
+						"internalType": "address[]",
+						"name": "_lockedFundAddresses",
+						"type": "address[]"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address[]",
+						"name": "_accounts",
+						"type": "address[]"
+					}
+				],
+				"name": "addLockedFundsAddresses",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "circulatingSupply",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "circulatingSupply",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_newVersion",
+						"type": "address"
+					},
+					{
+						"internalType": "address[]",
+						"name": "tokens",
+						"type": "address[]"
+					}
+				],
+				"name": "migrateFunds",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "removeLockedFundsAddress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address[]",
+						"name": "_tokenAddresses",
+						"type": "address[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_pilotAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/IndexFund.sol": "IndexFund"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+			"keccak256": "0x027b891937d20ccf213fdb9c31531574256de774bda99d3a70ecef6e1913ed2a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://087318b21c528119f649899f5b5580566dd8d7b0303d4904bd0e8580c3545f14",
+				"dweb:/ipfs/Qmbn5Mj7aUn8hJuQ8VrQjjEXRsXyJKykgnjR9p4C3nfLtL"
+			]
+		},
+		"@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol": {
+			"keccak256": "0x02348b2e4b9f3200c7e3907c5c2661643a6d8520e9f79939fbb9b4005a54894d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d41d627f4ef9c6006df8c2d01227d3cf4a6c3359b5704c629d88933272eecadd",
+				"dweb:/ipfs/QmYDo7MvMsvuDxuJZ9RC9zFganS3Tm8RYzSmBP5qSmJfuY"
+			]
+		},
+		"@openzeppelin/contracts/utils/Address.sol": {
+			"keccak256": "0x3b4820cac4f127869f6eb496c1d74fa6ac86ed24071e0f94742e6aef20e7252c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://23e1c7303c30a2ef9c9b3f861cda15c78e4c9697b4a7988f2bf7b21c392a02fb",
+				"dweb:/ipfs/QmWQJh5MsXJZjSTzAs9n5gtrqWYgXwkBa6xfwD5KKGQgSC"
+			]
+		},
+		"contracts/IndexFund.sol": {
+			"keccak256": "0xf838a117009cb4f5f6c3e6773bac595b06fc07d6a01fb657bb10602cba4a8ce6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0c5e1e0c12bc3d1078a4ce9b2d2f9ce9c1dace9acc10ef6140d82c7d32056087",
+				"dweb:/ipfs/QmYpzVPYggd6WHf3f3jS4HF4BGxpcwPzRaXXAb24M7jkLe"
+			]
+		},
+		"contracts/interfaces/IERC20Burnable.sol": {
+			"keccak256": "0x8b9d8785001305c2ba4f51b8b5462ad74365b8bfd156fc2df7f62e9522852565",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2d2019508038e498ae0fcb439c8d586837998858748772b2002dfeb00fdd9126",
+				"dweb:/ipfs/QmTz92UMYyaV3xuRENEuuUupDFiTRZVbB3G2s5xUf7dYor"
+			]
+		}
+	},
+	"version": 1
+}

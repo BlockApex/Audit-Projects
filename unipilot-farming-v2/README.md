@@ -1,0 +1,1 @@
+#Solidity Contract Development Template#

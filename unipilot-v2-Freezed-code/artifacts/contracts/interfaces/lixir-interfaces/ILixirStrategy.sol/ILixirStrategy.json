@@ -1,0 +1,29 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "ILixirStrategy",
+  "sourceName": "contracts/interfaces/lixir-interfaces/ILixirStrategy.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "contract ILixirVault",
+          "name": "_vault",
+          "type": "address"
+        },
+        {
+          "internalType": "bytes",
+          "name": "data",
+          "type": "bytes"
+        }
+      ],
+      "name": "initializeVault",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
