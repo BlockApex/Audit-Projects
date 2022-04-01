@@ -1,0 +1,29 @@
+{
+  "scripts": {
+    "test": "hardhat test",
+    "mainnet": "npx hardhat --network mainnet",
+    "typechain": "typechain --target=ethers-v5 'build/contracts/*.json' --out-dir 'typechain'"
+  },
+  "devDependencies": {
+    "@chainlink/contracts": "^0.2.1",
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "^4.3.0",
+    "@typechain/ethers-v5": "^7.0.1",
+    "@typechain/hardhat": "^2.3.0",
+    "@types/chai": "^4.2.21",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^16.6.2",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.2.0",
+    "ethers": "^5.0.0",
+    "hardhat": "^2.6.1",
+    "openzeppelin-solidity": "^4.3.0",
+    "prettier": "^2.3.2",
+    "ts-node": "^10.2.1",
+    "typechain": "^5.1.2",
+    "typescript": "^4.3.5",
+    "truffle-contract-size": "^2.0.1"
+  },
+  "dependencies": {}
+}

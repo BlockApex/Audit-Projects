@@ -1,0 +1,5 @@
+testMode: "assertion" # exploration || optimization
+testLimit: 1
+seqLen: 100
+coverage: true
+corpusDir: corpus
